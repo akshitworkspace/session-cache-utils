@@ -1,5 +1,5 @@
 {
-    "name": "@your-scope/session-cache-utils",
+    "name": "session-cache-utils",
     "version": "1.0.0",
     "description": "Lightweight sessionStorage caching utilities for the browser.",
     "main": "dist/index.js",
@@ -26,5 +26,8 @@
         "utility"
     ],
     "author": "Akshit",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "typescript": "^5.8.3"
+    }
 }
