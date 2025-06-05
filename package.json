@@ -1,0 +1,30 @@
+{
+    "name": "@your-scope/session-cache-utils",
+    "version": "1.0.0",
+    "description": "Lightweight sessionStorage caching utilities for the browser.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "cache",
+        "sessionStorage",
+        "browser-cache",
+        "react-cache",
+        "ttl-cache",
+        "utility"
+    ],
+    "author": "Akshit",
+    "license": "MIT"
+}
