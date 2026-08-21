@@ -3,6 +3,7 @@
 //Constants
 const ONE_DAY = 86400000;
 //Helpers
+//Helper to get the time when the data was cached
 const getWhenItCached = (keyName) => {
     try {
         const data = sessionStorage.getItem(keyName);
