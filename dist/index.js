@@ -1,4 +1,5 @@
 //To do: migrate to class based implementation
+//Configure for store opt option 
 //Constants
 const ONE_DAY = 86400000;
 //Helpers
